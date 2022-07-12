@@ -9,6 +9,11 @@ namespace BC
 {
     public class Billetera:BCEntidad
     {
+
+
+
+
+
         private string campos(string prefijo = "b")
         {
             string strCampos = String.Format(@"{0}.BilleteraId,{0}.MonedaId,{0}.BilleteraNroCuenta,{0}.BilleteraSaldo,{0}.PersonaBilleteraId,{0}.BilleteraFechaCreacion
